@@ -6,7 +6,7 @@ export default class Navbar extends Component {
         return (
             <nav className="navbar fixed-top px-5 mb-3 navbar-style">
                 <span>
-                    <img src={Logo} className="image me-2"/>
+                    <img src={Logo} className="image me-2" alt="logo"/>
                     <a className="navbar-brand fs-3" href="#">PT Belajar Saham Bersama</a>
                 </span>
                 <ul className="nav nav-pills">
